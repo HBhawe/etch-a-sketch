@@ -3,7 +3,7 @@ const container = document.querySelector(".container");
 const button = document.querySelector("#button");
 
 function loadGrid(squares) {
-  for (let i = 1; i < squares * squares + 1; i++) {
+  for (let i = 1; i <= squares * squares; i++) {
     let div = document.createElement("div");
     let height = 960 / squares;
     let width = 960 / squares;
